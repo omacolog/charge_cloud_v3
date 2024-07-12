@@ -3,7 +3,7 @@ import 'package:yandex_maps_mapkit_lite/init.dart' as init;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await init.initMapkit(apiKey: '0122d536-aa65-4e4e-9e60-6218a75a20ed');
+  await init.initMapkit(apiKey: ''); // apikey 
   runApp(const MyApp());
 }
 
